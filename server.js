@@ -1,0 +1,6 @@
+const express = require('express')
+const dotenv=require('dotenv')
+const cors= require('cors')
+const connectdbs = require('./Config/db')
+dotenv.config()
+connectdbs()
