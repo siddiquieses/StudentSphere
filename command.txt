@@ -1,0 +1,13 @@
+====PACKAGES COMMAND====
+npm install express
+npm install mongooose
+
+
+
+
+
+
+=============
+username:noman
+password:noman
+Connection String:mongodb+srv://noman:noman@cluster0.puco3jt.mongodb.net/?appName=Cluster0
