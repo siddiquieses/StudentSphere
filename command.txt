@@ -1,6 +1,8 @@
 ====PACKAGES COMMAND====
 npm install express
 npm install mongooose
+npm install bcryptjs
+npm install nodemon
 
 
 
