@@ -13,7 +13,8 @@ app.use(cors())
 app.get('/',(req,res)=>{
     res.send('backend is running')
 })
-app.use('/api/admin',require('./routes/adminroute'))
+// app.use('/api/admin',require('./routes/adminroute'))
+app.use('/api/course',require('./routes/courseroute'))
 const Port = process.env.PORT || 5000;
 app.listen(Port,()=>{
     console.log(`server is running on port `)

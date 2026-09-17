@@ -10,7 +10,7 @@ PROJECT:Studentsphere
   b)Teach courses (API=>get)
   c)Mark attendance (API=>post)
 3)Admin
-   a)Register/Login(API=>get,post,put,delete)
+   a)Register/Login(API=>post)
    b)Add courses (API=>get,post,put,delete)
      1) 1)postApi=http://localhost:5000/api/admin/createadmin
    c)View Student (API=>get,delete)
